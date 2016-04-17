@@ -48,7 +48,7 @@ $(document).ready(function(){
             },8);  
         };
    
-    $(".letsc").click(function(){
+    $(".letsc").mouseover(function(){
        $(".letsc").hide("explode", 500); 
        $("#sound")[0].play();
         clearInterval(action);
